@@ -1,0 +1,23 @@
+{
+  "name": "todaybible",
+  "version": "1.0.0",
+  "description": "모바일 환경에서 [매일성경 '오늘의 묵상'](https://sum.su.or.kr:8888/bible/today)을 볼 때 좀 더 편하게 보기위해 진행하는 사이드 프로젝트 입니다",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zwonlala/todayBible.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zwonlala/todayBible/issues"
+  },
+  "homepage": "https://github.com/zwonlala/todayBible#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "request": "^2.88.2"
+  }
+}
