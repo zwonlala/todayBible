@@ -42,7 +42,29 @@ const getData = () => {
       console.log(todayScripture);
       console.log(scriptures);
     }
+
+    todayBibleObj = {
+      date,
+      title,
+      todayScripture,
+      scriptures,
+    };
   });
 };
 
 getData();
+
+//todayScripture 부분에 ")" 후에 개행 넣는 함수 생성
+
+// const dateContainer = document.getElementsByClassName("date");
+// const titleContainer = document.getElementsByClassName("title");
+// const todayScriptureContainer = document.getElementsByClassName(
+//   "todayScripture"
+// );
+// const versesContainer = document.getElementsByClassName("verses");
+
+// console.log(todayBibleObj);
+// dateContainer.text = todayBibleObj.text;
+// titleContainer.text = todayBibleObj.title;
+// todayScriptureContainer.text = todayBibleObj.todayScripture;
+// versesContainer.text = todayBibleObj.scriptures;

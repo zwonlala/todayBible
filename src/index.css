@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+}
+
+.a {
+  width: 100vw;
+  height: 40vh;
+  background-color: yellow;
+}
+
+.a .header {
+  width: 100%;
+  height: 20%;
+  background-color: hotpink;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.a .date {
+  width: 20%;
+  height: 100%;
+  background-color: red;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.a .title {
+  width: 50%;
+  height: 100%;
+  background-color: green;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.a .todayScripture {
+  width: 30%;
+  height: 100%;
+  background-color: blue;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.a .verses {
+  width: 100%;
+  height: 100%;
+  background-color: ivory;
+  display: auto;
+}
+
+.b {
+  width: 100vw;
+  height: 60vh;
+  background-color: cyan;
+}
